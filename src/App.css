@@ -1,0 +1,58 @@
+:root{
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  color: #242424;
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  display: flex;
+  place-items: center;
+  place-content: center;
+  min-height: 100vh;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 50px;
+}
+.cards .card{
+  border: 1px solid gray;
+  width: calc(50% - 15px);
+  padding: 20px;
+  border-radius: 10px;
+}
+.cards .card .cardTitle{
+  font-size: 20px;
+  color: brown;
+}
+
+.filterColumn{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto 40px;
+}
+.filterColumn label{
+  color: #242424;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.filterColumn select{
+  height: 45px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  padding-left: 8px;
+  padding-right: 8px;
+  outline: 0;
+}
+.filterColumn select option{
+  font-weight: 600;
+}
