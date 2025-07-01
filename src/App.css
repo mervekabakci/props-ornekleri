@@ -3,6 +3,9 @@
   line-height: 1.5;
   color: #242424;
 }
+#root{
+  width: 100%;
+}
 *{
   box-sizing: border-box;
 }
@@ -12,6 +15,8 @@ body{
   place-items: center;
   place-content: center;
   min-height: 100vh;
+  width: 100%;
+  padding: 30px 50px;
 }
 
 .cards{
@@ -19,6 +24,7 @@ body{
   flex-wrap: wrap;
   gap: 30px;
   padding: 50px;
+  width: 100%;
 }
 .cards .card{
   border: 1px solid gray;
@@ -35,7 +41,7 @@ body{
   display: flex;
   flex-direction: column;
   width: 300px;
-  margin: 0 auto 40px;
+  margin-left: auto;
 }
 .filterColumn label{
   color: #242424;
@@ -44,7 +50,7 @@ body{
   margin-bottom: 10px;
 }
 .filterColumn select{
-  height: 45px;
+  height: 35px;
   border: 1px solid gray;
   border-radius: 10px;
   font-size: 15px;
@@ -55,4 +61,20 @@ body{
 }
 .filterColumn select option{
   font-weight: 600;
+}
+
+.country{
+  padding: 20px 0 30px;
+  border-bottom: 1px solid rgb(219, 215, 215);
+  width: 100%;
+}
+.headColumn{
+  display: flex;
+  align-items: flex-end;
+  background: #dabe72;
+  padding: 20px 30px;
+  border-radius: 20px;
+}
+.headColumn h2{
+  margin: 0;
 }

@@ -8,8 +8,8 @@ export default function App() {
   return (
     <>
       {/* <RecipeList /> */}
-      {/* <Countries /> */}
-      <Movies movies={movies}/>
+      <Countries />
+      {/* <Movies movies={movies}/> */}
     </>
   )
 }
